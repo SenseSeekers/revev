@@ -1,2 +1,2 @@
 # revev
-A mordern looking e-commerce website with cool features
+A modern looking e-commerce website with cool features
