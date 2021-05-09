@@ -1,14 +1,14 @@
 <div class="container my-5">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <div class="d-flex justify-content-center">
                 <div style="background: gray; width: 250px; height: 250px;">
                     Will be add using backend component
                 </div>
             </div>
         </div>
-        <div class="col-6 col-md-4">
+        <div class="col-md-6">
             <div>
                 <div>
                     <p class="h4 my-2">Product Title</p>

@@ -31,13 +31,13 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img\bkash-payment.png" class="img-fluid d-block w-100" alt="payment-method">
+                                <img src="img\bkash-payment.jpg" class="img-fluid d-block w-100" alt="payment-method">
                             </div>
                             <div class="carousel-item">
-                                <img src="img\bkash-payment.png" class="img-fluid d-block w-100" alt="payment-method">
+                                <img src="img\bkash-payment.jpg" class="img-fluid d-block w-100" alt="payment-method">
                             </div>
                             <div class="carousel-item">
-                                <img src="img\bkash-payment.png" class="img-fluid d-block w-100" alt="payment-method">
+                                <img src="img\bkash-payment.jpg" class="img-fluid d-block w-100" alt="payment-method">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

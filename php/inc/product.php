@@ -13,7 +13,7 @@
  */
 ?>
 
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-5 text-center">
     <!-- Section Header : Payment Method -->
     <h2 class="text-dark mb-5 display-4 text-center">Product Info</h2>
     <div>
