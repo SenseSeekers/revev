@@ -25,16 +25,16 @@ require "./inc/database/product-data.php";
             <div class="col-auto">
                 <!-- Product Card -->
                 <a href="product.php" class="btn shadow-sm p-0 h-100">
-                    <div class="card h-100 border-0" style="width: 12rem;">
+                    <div class="card h-100 border-0" style="width: 8rem;">
                         <img src="
                         <?php echo $Product["Featured Thumbnail"]; ?> 
                         " class="card-img-top" alt="Image not Included">
-                        <div class="card-body">
-                            <p class="card-title text-secondary my-0">BDT &#2547;
+                        <div class="card-body p-0 pt-1">
+                            <p class="card-title text-secondary my-0 p-0">BDT &#2547;
                                 <?php echo $Product["Product Price"];
                                 ?>
                                 &nbsp;</p>
-                            <p class="card-text text-secondary my-0">
+                            <p class="card-text text-secondary my-0 p-0">
                                 <?php echo $Product["Product Name"]; ?>
                             </p>
                         </div>

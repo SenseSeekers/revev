@@ -15,6 +15,16 @@
 
 <div class="container-fluid mt-5 text-center">
     <!-- Section Header : Payment Method -->
+    <!-- <h2 class="text-dark mb-5 display-4" id="payment">Product-Details</h2> -->
+    <div>
+        <?php
+        require 'inc\product\product-details.php';
+        ?>
+    </div>
+</div>
+
+<div class="container-fluid mt-5 text-center">
+    <!-- Section Header : Payment Method -->
     <!-- <h2 class="text-dark mb-5 display-4">Product Info</h2> -->
     <div>
         <?php
@@ -28,7 +38,18 @@
     <h2 class="text-dark mb-5 display-4" id="payment">Payment Methods</h2>
     <div>
         <?php
-        require 'inc\cart\payment-method.php';
+        require 'inc\product\payment-method.php';
         ?>
     </div>
 </div>
+
+<div class="container-fluid mt-5 text-center">
+    <!-- Section Header : Payment Method -->
+    <h2 class="text-dark mb-5 display-4" id="payment">Related Products</h2>
+    <div>
+        <?php
+        require 'inc\product\related-products.php';
+        ?>
+    </div>
+</div>
+

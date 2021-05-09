@@ -47,9 +47,9 @@
             </div>
         </div>
         <!-- Top Categories Section -->
-        <div class="col-lg col-xl-6 text-center py-3">
+        <!-- <div class="col-lg col-xl-6 text-center py-3">
             <h4>Top Categories</h4>
-            <!-- Top Category Links -->
+            Top Category Links
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -66,6 +66,21 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <!-- Help & Support Section -->
+        <div class="col-lg col-xl-3 text-center py-3">
+            <h4>Top Cateogries</h4>
+            <!-- Help & Support Links -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl">
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Men's Fashion</a>
+                    </div>
+                    <div class="col-xxl">
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Women's Fashion</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Help & Support Section -->
         <div class="col-lg col-xl-3 text-center py-3">
@@ -78,6 +93,21 @@
                     </div>
                     <div class="col-xxl">
                         <a class="btn btn-link text-secondary" href="#!" role="button">Disputes & Reports</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Help & Support Section -->
+        <div class="col-lg col-xl-3 text-center py-3">
+            <h4>We Accept</h4>
+            <!-- Help & Support Links -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl">
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Nagad</a>
+                    </div>
+                    <div class="col-xxl">
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Bkash</a>
                     </div>
                 </div>
             </div>
