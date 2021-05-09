@@ -383,15 +383,15 @@
 
 
 
-<div class="container-fluid mt-5 text-center">
-    <!-- Section Header : Payment Method -->
+<!-- <div class="container-fluid mt-5 text-center">
+    Section Header : Payment Method
     <h2 class="text-dark mb-5 display-4">In Your Cart</h2>
     <div>
         <?php
-        require 'inc\cart\shopping-cart.php';
+        // require 'inc\cart\shopping-cart.php';
         ?>
     </div>
-</div>
+</div> -->
 <div class="container-fluid mt-5 text-center">
     <!-- Section Header : Payment Method -->
     <h2 class="text-dark mb-5 display-4">Payment Methods</h2>

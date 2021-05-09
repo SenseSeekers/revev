@@ -14,19 +14,12 @@
 ?>
 
 <?php
+require 'inc/site/header.php';
+?>
+<?php
+require 'inc/product.php';
+?>
 
-require 'home/category-navigation.php';
-
-require 'home/featured-carousel.php';
-
-// require 'home/new-arrivals.php';
-
-require 'home/pick-your-own.php';
-
-// require 'home/popular-categories.php';
-
-// require 'home/popular-products.php';
-
-// require 'home/more-to-love.php';
-
+<?php
+require 'inc/site/footer.php'
 ?>

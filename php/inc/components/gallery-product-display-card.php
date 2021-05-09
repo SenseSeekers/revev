@@ -24,19 +24,18 @@ require "./inc/database/product-data.php";
         <?php foreach ($ProductData as $Product) : ?>
             <div class="col-auto">
                 <!-- Product Card -->
-                <a href="product.php" class="btn btn-outline-secondary shadow-sm p-0 h-100">
-                    <div class="card h-100" style="width: 12rem;">
+                <a href="product.php" class="btn shadow-sm p-0 h-100">
+                    <div class="card h-100 border-0" style="width: 12rem;">
                         <img src="
                         <?php echo $Product["Featured Thumbnail"]; ?> 
                         " class="card-img-top" alt="Image not Included">
                         <div class="card-body">
-                            <h5 class="card-title text-dark">Price : &#2547;
+                            <p class="card-title text-secondary my-0">BDT &#2547;
                                 <?php echo $Product["Product Price"];
                                 ?>
-                                &nbsp;</h5>
-                            <p class="card-text h6 text-secondary my-1">
-                                <?php echo $Product["Brand Name"]
-                                    . ' ' . $Product["Product Name"]; ?>
+                                &nbsp;</p>
+                            <p class="card-text text-secondary my-0">
+                                <?php echo $Product["Product Name"]; ?>
                             </p>
                         </div>
                     </div>

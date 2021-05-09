@@ -13,20 +13,12 @@
  */
 ?>
 
-<?php
-
-require 'home/category-navigation.php';
-
-require 'home/featured-carousel.php';
-
-// require 'home/new-arrivals.php';
-
-require 'home/pick-your-own.php';
-
-// require 'home/popular-categories.php';
-
-// require 'home/popular-products.php';
-
-// require 'home/more-to-love.php';
-
-?>
+<div class="container-fluid py-5">
+    <div class="row justify-content-center">
+        <div class="col mb-5">
+            <?php
+            require 'inc\components\gallery-product-overview.php';
+            ?>
+        </div>
+    </div>
+</div>
