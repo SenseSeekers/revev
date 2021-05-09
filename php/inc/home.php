@@ -21,8 +21,11 @@ require 'home/featured-carousel.php';
 
 // require 'home/new-arrivals.php';
 
-require 'home/pick-your-own.php';
+require 'home/men-collection.php';
 
+require 'home/women-collection.php';
+
+require 'home/pick-your-own.php';
 // require 'home/popular-categories.php';
 
 // require 'home/popular-products.php';

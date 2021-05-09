@@ -13,15 +13,18 @@
  */
 ?>
 
-<div class="container-fluid mt-5 text-center">
+<div class="container-fluid mt-5">
     <!-- Section Header : Payment Method -->
-    <!-- <h2 class="text-dark mb-5 display-4" id="payment">Product-Details</h2> -->
+    <h2 class="text-dark mb-5 display-4 text-center">Product Info</h2>
     <div>
         <?php
         require 'inc\product\product-details.php';
         ?>
     </div>
 </div>
+
+
+
 
 <div class="container-fluid mt-5 text-center">
     <!-- Section Header : Payment Method -->
@@ -48,8 +51,7 @@
     <h2 class="text-dark mb-5 display-4" id="payment">Related Products</h2>
     <div>
         <?php
-        require 'inc\product\related-products.php';
+        require 'inc\components\gallery-product-display-card.php';
         ?>
     </div>
 </div>
-

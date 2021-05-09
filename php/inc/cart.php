@@ -12,6 +12,29 @@
  * @link     https://www.revevx.com/
  */
 ?>
+
+<div class="container-fluid mt-5 text-center">
+    <!-- Section Header : Payment Method -->
+    <h2 class="text-dark mb-5 display-4">Order Product</h2>
+    <div>
+        <?php
+        require 'inc\cart\shopping-cart.php';
+        ?>
+    </div>
+</div>
+
+<div class="container-fluid mt-5 text-center">
+    <!-- Section Header : Payment Method -->
+    <h2 class="text-dark mb-5 display-4">Payment Methods</h2>
+    <div>
+        <?php
+        require 'inc\cart\payment-method.php';
+        ?>
+    </div>
+</div>
+
+
+
 <!-- <style>
     body {
         min-height: 100vh;
@@ -392,12 +415,3 @@
         ?>
     </div>
 </div> -->
-<div class="container-fluid mt-5 text-center">
-    <!-- Section Header : Payment Method -->
-    <h2 class="text-dark mb-5 display-4">Payment Methods</h2>
-    <div>
-        <?php
-        require 'inc\cart\payment-method.php';
-        ?>
-    </div>
-</div>

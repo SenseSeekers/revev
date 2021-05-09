@@ -10,16 +10,24 @@
  * @author   Md. Nurul Islam Talukder Nahid <nitalukder62443@gmail.com>
  * @license  https://github.com/SenseSeekers/revev/blob/main/LICENSE MIT License
  * @link     https://www.revevx.com/
+ * 
+ * @return string[]
+ * phpcs:disable
+ * 
  */
 ?>
 
+<!-- Section : Product Subcategory -->
 <div class="container-fluid mt-5 text-center">
     <!-- Section Header : Product Subcategory -->
-    <h2 class="text-dark display-6">Related Products</h2>
+    <h2 class="text-dark mb-5 display-4">Women's Collection</h2>
     <!-- Section Body : Product Subcategory -->
     <div>
         <?php
         require 'inc\components\gallery-product-display-card.php';
+        ?>
+        <?php
+        require 'inc\components\button-view-more-products.php';
         ?>
     </div>
 </div>

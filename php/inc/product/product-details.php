@@ -1,18 +1,38 @@
-<?php
-
-/**
- * MyClass Class Doc Comment
- *
- *  PHP Version 8.0.1
- * 
- * @category Class
- * @package  MyPackage
- * @author   Md. Nurul Islam Talukder Nahid <nitalukder62443@gmail.com>
- * @license  https://github.com/SenseSeekers/revev/blob/main/LICENSE MIT License
- * @link     https://www.revevx.com/
- */
-?>
-
-<?php
-// require 'inc\product\product-info\overview.php';
-?>
+<div class="container my-5">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+        <div class="col-md-8">
+            <div class="d-flex justify-content-center">
+                <div style="background: gray; width: 250px; height: 250px;">
+                    Will be add using backend component
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4">
+            <div>
+                <div>
+                    <p class="h4 my-2">Product Title</p>
+                    <p class="h6 mb-3">Product Code</p>
+                    <p class="h5 my-4">BDT ৳ 1500</p>
+                    <p class="h6 my-1">Avaliable Colors</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Red</li>
+                        <li class="list-group-item">Green</li>
+                        <li class="list-group-item">Blue</li>
+                        <li class="list-group-item">Yellow</li>
+                    </ul>
+                    <p class="h6 py-1">Avaliable Sizes</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Red</li>
+                        <li class="list-group-item">Green</li>
+                        <li class="list-group-item">Blue</li>
+                        <li class="list-group-item">Yellow</li>
+                    </ul>
+                    <a href="http://localhost/GITHUB/revev/php/cart.php">
+                        <button type="button" class="btn btn-dark my-4">Order Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -104,10 +104,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xxl">
-                        <a class="btn btn-link text-secondary" href="#!" role="button">Nagad</a>
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Nagad Payment</a>
                     </div>
                     <div class="col-xxl">
-                        <a class="btn btn-link text-secondary" href="#!" role="button">Bkash</a>
+                        <a class="btn btn-link text-secondary" href="#!" role="button">Bkash Payment</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,4 @@
 
 <!-- Optional JavaScript; Bootstrap Bundle with Popper! -->
 <script src="src/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+<script src="main.js"></script>
